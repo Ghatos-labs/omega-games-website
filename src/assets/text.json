@@ -1,0 +1,30 @@
+{
+    "Home":
+    {
+        "Title":"Home title here",
+        "Description":"Space game with spaceships and giant space worms.",
+        "Button":"Go to game page"
+    },
+    "About":
+    {
+        "Title":"About Title here",
+        "Description":"I'm Tactical bear, the best game developer that ever walked on this earth B)"
+    },
+    "Footer":
+    {
+        "LeftSide":
+        {
+            "Title": "Left title here",
+            "element1": "Steam",
+            "element2": "Meta"
+        },
+        "RightSide":
+        {
+            "Title": "Right title here",
+            "element1": "Discord",
+            "element2": "Art station",
+            "element3": "Youtube"
+        },
+        "Description":"Footer text goes here, probably some legal mumbo jumbo."
+    }
+}
