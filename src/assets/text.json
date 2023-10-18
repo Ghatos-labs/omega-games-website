@@ -14,13 +14,13 @@
     {
         "LeftSide":
         {
-            "Title": "Left title here",
+            "Title": "Left title",
             "element1": "Steam",
             "element2": "Meta"
         },
         "RightSide":
         {
-            "Title": "Right title here",
+            "Title": "Right title",
             "element1": "Discord",
             "element2": "Art station",
             "element3": "Youtube"

@@ -1,9 +1,9 @@
-import Text from "../text.json";
-import SteamIcon from "/src/assets/images/steam-icon.svg";
-import MetaIcon from "/src/assets/images/meta-icon.svg";
-import DiscordIcon from "/src/assets/images/discord-icon.svg";
-import ArtstationIcon from "/src/assets/images/artstation-icon.svg";
-import YoutubeIcon from "/src/assets/images/youtube-icon.svg";
+import Text from "../text.json"
+import SteamIcon from "/steam-icon.svg";
+import MetaIcon from "/meta-icon.svg";
+import DiscordIcon from "/discord-icon.svg";
+import ArtstationIcon from "/artstation-icon.svg";
+import YoutubeIcon from "/youtube-icon.svg";
 
 function Footer () {
   return (

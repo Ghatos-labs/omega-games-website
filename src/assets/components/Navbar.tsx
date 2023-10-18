@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import WebIcon from "/src/assets/images/icon.svg";
-import SteamIcon from "/src/assets/images/steam-icon.svg";
-import MetaIcon from "/src/assets/images/meta-icon.svg";
-import YoutubeIcon from "/src/assets/images/youtube-icon.svg";
-import InfoIcon from "/src/assets/images/info-icon.svg";
+import WebIcon from "/icon.svg";
+import SteamIcon from "/steam-icon.svg";
+import MetaIcon from "/meta-icon.svg";
+import YoutubeIcon from "/youtube-icon.svg";
+import InfoIcon from "/info-icon.svg";
 
 const ScrollToTop = () => {
   window.scrollTo(0, 0);
