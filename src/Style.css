@@ -6,8 +6,9 @@ body
   --accent-color: #ff8800;
   --link-color: #aaaaaa;
 
-  --navbar-element-size: 5vh;
-  --navbar-element-size-small: 50px;
+  --navbar-height: 5vh;
+  --navbar-height-small: 50px;
+  --navbar-element-size: 70%;
   --navbar-element-spacing: 5px;
   --navbar-website-logo-width: 10vh;
   --navbar-website-logo-width-small: 100px;
@@ -80,7 +81,7 @@ p, h1, h3
 {
   position: fixed;
   width: 100%;
-  height: var(--navbar-element-size);
+  height: var(--navbar-height);
   padding: 0;
   margin: 0;
   display: flex;
@@ -93,7 +94,7 @@ p, h1, h3
 {
   content: "";
   position: absolute;
-  top: var(--navbar-element-size);
+  top: var(--navbar-height);
   width: 100%;
   height: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
@@ -102,38 +103,47 @@ p, h1, h3
 .website-logo
 {
   width: var(--navbar-website-logo-width) !important;
-  height: 100%;
-  margin-right: auto;
   margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.website-logo img
+{
+  height: calc(var(--navbar-height) * 0.9);
 }
 .navbar li
 {
-  width: var(--navbar-element-size);
-  height: 100%;
+  width: var(--navbar-height);
   display: grid;
+  margin-left: calc(var(--navbar-element-spacing) / 2);
+  margin-right: calc(var(--navbar-element-spacing) / 2);
   align-items: center;
   box-sizing: border-box;
-  margin-left: var(--navbar-element-spacing);
   list-style-type: none;
+}
+.info-icon-separator
+{
+  position: relative;
+  width: 2px !important;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 100px;
+  background-color: white;
 }
 li a
 {
   width: 100%;
   height: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   text-decoration: none;
   color: black;
 }
 li a img
 {
+  position: relative;
   width: var(--navbar-element-size);
-}
-.info-icon-separator
-{
-  width: 3px !important;
-  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
@@ -252,22 +262,26 @@ footer div span
 {
   .navbar
   {
-    height: var(--navbar-element-size-small);
+    height: var(--navbar-height-small);
   }
   .navbar::after
   {
-    top: var(--navbar-element-size-small);
+    top: var(--navbar-height-small);
   }
   .navbar li
   {
-    width: var(--navbar-element-size-small);
+    width: var(--navbar-height-small);
   }
   .website-logo
   {
     width: var(--navbar-website-logo-width-small) !important;
   }
+  .website-logo img
+  {
+    height: calc(var(--navbar-height-small) * 0.9);
+  }
   li a img
   {
-    width: var(--navbar-element-size-small);
+    width: var(--navbar-height-small);
   }
 }
