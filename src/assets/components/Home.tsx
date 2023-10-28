@@ -25,7 +25,10 @@ function Home({bgAmount}: Props) {
       <div className="game-informations">
         <h1>{Text.Home.Title}</h1>
         <h3>{Text.Home.Description}</h3>
-        <a href="#" className="button">{Text.Home.Button}</a>
+        <div className="game-info-button-container">
+          <a href="#" className="button" style={{marginRight: "10px"}}>{Text.Home.ButtonOne}</a>
+          <a href="#" className="button" style={{marginLeft: "10px"}}>{Text.Home.ButtonTwo}</a>
+        </div>
       </div>
       {genBackground({bgAmount})}
     </div>

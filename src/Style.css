@@ -162,7 +162,11 @@ li a img
   filter: drop-shadow(0 0 10px black);
   z-index: 1;
 }
-.game-informations a
+.game-info-button-container
+{
+  display: flex;
+}
+.game-info-button-container a
 {
   width: fit-content;
   height: fit-content;
@@ -256,6 +260,14 @@ footer div span
     display: grid;
     left: 0;
     transform: translateX(0);
+  }
+  .game-info-button-container
+  {
+    justify-content: space-between;
+  }
+  .game-info-button-container a
+  {
+    width: 100%;
   }
 }
 @media (max-height: 500px)

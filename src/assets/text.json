@@ -3,7 +3,8 @@
     {
         "Title":"Home title here",
         "Description":"Space game with spaceships and giant space worms.",
-        "Button":"Go to game page"
+        "ButtonOne":"Go to game page",
+        "ButtonTwo":"Go to another page"
     },
     "About":
     {
