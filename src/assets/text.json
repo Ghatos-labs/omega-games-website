@@ -1,31 +1,31 @@
 {
     "Home":
     {
-        "Title":"Home title here",
+        "Title":"A-Zero",
         "Description":"Space game with spaceships and giant space worms.",
-        "ButtonOne":"Go to game page",
-        "ButtonTwo":"Go to another page"
+        "ButtonOne":"Steam Page",
+        "ButtonTwo":"Meta Page"
     },
     "About":
     {
-        "Title":"About Title here",
+        "Title":"Who am I?",
         "Description":"I'm Tactical bear, the best game developer that ever walked on this earth B)"
     },
     "Footer":
     {
         "LeftSide":
         {
-            "Title": "Left title",
+            "Title": "Stores",
             "element1": "Steam",
             "element2": "Meta"
         },
         "RightSide":
         {
-            "Title": "Right title",
+            "Title": "Socials",
             "element1": "Discord",
             "element2": "Art station",
             "element3": "Youtube"
         },
-        "Description":"Footer text goes here, probably some legal mumbo jumbo."
+        "Description":"OMEGA GAMES SASU - 920 592 482 R.C.S. Evry"
     }
 }

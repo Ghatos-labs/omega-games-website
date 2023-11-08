@@ -27,11 +27,11 @@ function Footer () {
             </span>
             <span>
               <img className="footer-icon" src={ArtstationIcon}></img>
-              <a href="#" className="text-link">{Text.Footer.RightSide.element2}</a>
+              <a href="https://www.artstation.com/mehdiakkari3" className="text-link">{Text.Footer.RightSide.element2}</a>
             </span>
             <span>
               <img className="footer-icon" src={YoutubeIcon}></img>
-              <a href="#" className="text-link">{Text.Footer.RightSide.element3}</a>
+              <a href="https://www.youtube.com/@TacticalNounours" className="text-link">{Text.Footer.RightSide.element3}</a>
             </span>
         </div>
         <div className="footer-bottom-zone">

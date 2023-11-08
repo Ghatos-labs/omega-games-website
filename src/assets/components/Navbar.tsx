@@ -16,7 +16,7 @@ function Navbar () {
         <li className="website-logo" onClick={() => ScrollToTop()}><Link to="/"><img src={WebIcon}></img></Link></li>
         <li><a href="#"><img src={SteamIcon}></img></a></li>
         <li><a href="#"><img src={MetaIcon}></img></a></li>
-        <li><a href="#"><img src={YoutubeIcon}></img></a></li>
+        <li><a href="https://www.youtube.com/@TacticalNounours"><img src={YoutubeIcon}></img></a></li>
         <li className="info-icon-separator"></li>
         <li onClick={() => ScrollToTop()}><Link to="/about"><img src={InfoIcon}></img></Link></li>
       </nav>
