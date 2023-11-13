@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Text from "../text.json"
 import WebIcon from "/icon.svg";
 import SteamIcon from "/steam-icon.svg";
 import MetaIcon from "/meta-icon.svg";
@@ -13,7 +14,13 @@ function Navbar () {
   return (
     <>
       <nav className="navbar">
-        <li className="website-logo" onClick={() => ScrollToTop()}><Link to="/"><img src={WebIcon}></img></Link></li>
+        <Link to="/" className="website-logo" onClick={() => ScrollToTop()}>
+          <p>
+            <img src={WebIcon}></img>
+            <span style={{color: "#FBAF5E"}}>{Text.Navbar.Title.WordOne}</span>
+            {Text.Navbar.Title.WordTwo}
+          </p>
+        </Link>
         <li><a href="#"><img src={SteamIcon}></img></a></li>
         <li><a href="#"><img src={MetaIcon}></img></a></li>
         <li><a href="https://www.youtube.com/@TacticalNounours"><img src={YoutubeIcon}></img></a></li>

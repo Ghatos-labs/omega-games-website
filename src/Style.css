@@ -10,8 +10,8 @@ body
   --navbar-height-small: 50px;
   --navbar-element-size: 70%;
   --navbar-element-spacing: 5px;
-  --navbar-website-logo-width: 10vh;
-  --navbar-website-logo-width-small: 100px;
+  --navbar-title-size: min(3vh, 4vw);
+  --navbar-title-size-small: min(1.25em, 3vw);
 
   --home-info-width: max(500px, 30vw);
   --home-info-side-margin: 100px;
@@ -102,15 +102,28 @@ p, h1, h3
 }
 .website-logo
 {
-  width: var(--navbar-website-logo-width) !important;
-  margin-left: 0 !important;
-  margin-right: auto !important;
+  height: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.website-logo p
+{
+  height: 100%;
+  margin-top: 0;
+  font-size: var(--navbar-title-size);
+  font-weight: bold;
+  overflow: hidden;
 }
 .website-logo img
 {
-  height: calc(var(--navbar-height) * 0.9);
+  height: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
-.navbar li
+.navbar li:not(.website-logo)
 {
   width: var(--navbar-height);
   display: grid;
@@ -280,20 +293,12 @@ footer div span
   {
     top: var(--navbar-height-small);
   }
-  .navbar li
+  .navbar li:not(.website-logo)
   {
     width: var(--navbar-height-small);
   }
-  .website-logo
+  .website-logo p
   {
-    width: var(--navbar-website-logo-width-small) !important;
-  }
-  .website-logo img
-  {
-    height: calc(var(--navbar-height-small) * 0.9);
-  }
-  li a img
-  {
-    width: var(--navbar-height-small);
+    font-size: var(--navbar-title-size-small);
   }
 }

@@ -1,4 +1,12 @@
 {
+    "Navbar":
+    {
+        "Title":
+        {
+            "WordOne": "TACTICAL ",
+            "WordTwo": "DEV"
+        }
+    },
     "Home":
     {
         "Title":"A-Zero",
