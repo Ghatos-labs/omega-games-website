@@ -17,8 +17,7 @@ function Navbar () {
         <Link to="/" className="website-logo" onClick={() => ScrollToTop()}>
           <p>
             <img src={WebIcon}></img>
-            <span style={{color: "#FBAF5E"}}>{Text.Navbar.Title.WordOne}</span>
-            {Text.Navbar.Title.WordTwo}
+            <span style={{verticalAlign: "middle"}}>{Text.Navbar.Title.WordOne}{Text.Navbar.Title.WordTwo}</span>
           </p>
         </Link>
         <li><a href="#"><img src={SteamIcon}></img></a></li>

@@ -6,7 +6,7 @@ function About() {
     <div className="background-image about-info-container" style={{backgroundImage: "url(/about-background.jpg)"}}>
       <div className="about-informations">
         <h1>{Text.About.Title}</h1>
-        <h3>{Text.About.Description}</h3>
+        <p>{Text.About.Description}</p>
         <img src={Avatar}></img>
       </div>
     </div>
